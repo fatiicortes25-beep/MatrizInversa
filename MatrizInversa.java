@@ -17,7 +17,7 @@ public class MatrizInversa {
             StringBuilder reporte = new StringBuilder();
             reporte.append("--- MATRIZ ORIGINAL ---\n");
             reporte.append(matrizToString(matriz)).append("\n");
-
+            
             // 2. VERIFICACIONES MATEMÁTICAS
             if (matriz.length != matriz[0].length) {
                 throw new Exception("La matriz no es cuadrada. No tiene inversa.");
