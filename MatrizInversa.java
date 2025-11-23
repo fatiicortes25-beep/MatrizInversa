@@ -95,6 +95,7 @@ public class MatrizInversa {
             det += signo * matriz[0][j] * determinante(subMatriz);
         }
         return det;
+    
     }
 
     // Helper para eliminar una fila y una columna (necesario para cofactores)
